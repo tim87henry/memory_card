@@ -1,0 +1,18 @@
+body {
+    background: honeydew;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photos {
+    max-width: 12vmin;
+    min-width: 12vmax;
+}
+
+.photos:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}

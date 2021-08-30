@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import lewis from '../images/lewis.png'; 
 import max from '../images/max.png';
 import charles from '../images/charles.png';
@@ -20,29 +20,52 @@ import george from '../images/george.png';
 import mick from '../images/mick.png';
 import nikita from '../images/nikita.png';
 
-const Cards = () => {
+const Cards = (props) => {
+    const photos = {
+        1: max,
+        2: lewis,
+        3: charles,
+        4: carlos,
+        5: sergio,
+        6: valtteri,
+        7: lando,
+        8: daniel,
+        9: pierre,
+        10: yuki,
+        11: sebastian,
+        12: lance,
+        13: fernando,
+        14: esteban,
+        15: kimi,
+        16: antonio,
+        17: nicholas,
+        18: george,
+        19: mick,
+        20: nikita
+    };
+
+    const [highScore, setHighScore] = useState(props.highScore);
+    let pics = [];
+    let selected=[];
+
+    // Display cards in a random order
+    function displayCards() {
+        for (let i=1;i<=20;i++) {
+            let num=100;
+            while(num === 100) {
+                num = Math.floor(Math.random() * 20);
+                num++;
+                num = (selected.indexOf(num) === -1)? num: 100;
+            }
+            selected.push(num);
+            pics.push(<img src={photos[num]} alt="driver" onClick={() => {props.onSelect(num)}} className="photos"></img>)
+        }
+    }
+
     return(
-        <div>
-            <img src={max} alt="driver"></img>
-            <img src={lewis} alt="driver"></img>
-            <img src={charles} alt="driver"></img>
-            <img src={carlos} alt="driver"></img>
-            <img src={sergio} alt="driver"></img>
-            <img src={valtteri} alt="driver"></img>
-            <img src={lando} alt="driver"></img>
-            <img src={daniel} alt="driver"></img>
-            <img src={pierre} alt="driver"></img>
-            <img src={yuki} alt="driver"></img>
-            <img src={sebastian} alt="driver"></img>
-            <img src={lance} alt="driver"></img>
-            <img src={fernando} alt="driver"></img>
-            <img src={esteban} alt="driver"></img>
-            <img src={kimi} alt="driver"></img>
-            <img src={antonio} alt="driver"></img>
-            <img src={nicholas} alt="driver"></img>
-            <img src={george} alt="driver"></img>
-            <img src={mick} alt="driver"></img>
-            <img src={nikita} alt="driver"></img>
+        <div className="cards">
+            {displayCards()}
+            {pics}
         </div>
     )
 }
