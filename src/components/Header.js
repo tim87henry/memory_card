@@ -4,9 +4,13 @@ import '../style.css';
 const Header = (props) => {
     return(
         <div className="header">
-            Click on any image to get a point. Just make sure you don't click the same image twice.
-            <p>Current Score : {props.currScore}</p>
-            <p>High Score : {props.highScore}</p>
+            <div className="heading">
+                Memory Card Game
+            </div>
+            <ul className="scoreList">
+                <li>Current Score : {props.currScore}</li>
+                <li>High Score : {props.highScore}</li>
+            </ul>
         </div>
         
     )

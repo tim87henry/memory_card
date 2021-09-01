@@ -31,17 +31,9 @@ const Cards = (props) => {
         7: lando,
         8: daniel,
         9: pierre,
-        10: yuki,
-        11: sebastian,
-        12: lance,
-        13: fernando,
-        14: esteban,
-        15: kimi,
-        16: antonio,
-        17: nicholas,
-        18: george,
-        19: mick,
-        20: nikita
+        10: sebastian,
+        11: fernando,
+        12: george
     };
 
     const [highScore, setHighScore] = useState(props.highScore);
@@ -50,10 +42,10 @@ const Cards = (props) => {
 
     // Display cards in a random order
     function displayCards() {
-        for (let i=1;i<=20;i++) {
+        for (let i=1;i<=12;i++) {
             let num=100;
             while(num === 100) {
-                num = Math.floor(Math.random() * 20);
+                num = Math.floor(Math.random() * 12);
                 num++;
                 num = (selected.indexOf(num) === -1)? num: 100;
             }
