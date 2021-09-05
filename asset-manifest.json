@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/memory_card/static/css/main.2e00380d.chunk.css",
+    "main.js": "/memory_card/static/js/main.251dd1df.chunk.js",
+    "main.js.map": "/memory_card/static/js/main.251dd1df.chunk.js.map",
+    "runtime-main.js": "/memory_card/static/js/runtime-main.071a2a74.js",
+    "runtime-main.js.map": "/memory_card/static/js/runtime-main.071a2a74.js.map",
+    "static/js/2.9dd614ec.chunk.js": "/memory_card/static/js/2.9dd614ec.chunk.js",
+    "static/js/2.9dd614ec.chunk.js.map": "/memory_card/static/js/2.9dd614ec.chunk.js.map",
+    "index.html": "/memory_card/index.html",
+    "static/css/main.2e00380d.chunk.css.map": "/memory_card/static/css/main.2e00380d.chunk.css.map",
+    "static/js/2.9dd614ec.chunk.js.LICENSE.txt": "/memory_card/static/js/2.9dd614ec.chunk.js.LICENSE.txt",
+    "static/media/antonio.b3153edf.png": "/memory_card/static/media/antonio.b3153edf.png",
+    "static/media/carlos.5106dda2.png": "/memory_card/static/media/carlos.5106dda2.png",
+    "static/media/charles.c16e3fc6.png": "/memory_card/static/media/charles.c16e3fc6.png",
+    "static/media/daniel.b3e66c06.png": "/memory_card/static/media/daniel.b3e66c06.png",
+    "static/media/esteban.ef6a8390.png": "/memory_card/static/media/esteban.ef6a8390.png",
+    "static/media/fernando.29d2fc68.png": "/memory_card/static/media/fernando.29d2fc68.png",
+    "static/media/george.3b9fbdc2.png": "/memory_card/static/media/george.3b9fbdc2.png",
+    "static/media/kimi.9a0df7c5.png": "/memory_card/static/media/kimi.9a0df7c5.png",
+    "static/media/lance.f30f6d8c.png": "/memory_card/static/media/lance.f30f6d8c.png",
+    "static/media/lando.f936d971.png": "/memory_card/static/media/lando.f936d971.png",
+    "static/media/lewis.ba2f42ef.png": "/memory_card/static/media/lewis.ba2f42ef.png",
+    "static/media/max.0ed76598.png": "/memory_card/static/media/max.0ed76598.png",
+    "static/media/mick.e5141d22.png": "/memory_card/static/media/mick.e5141d22.png",
+    "static/media/nicholas.4c1bb089.png": "/memory_card/static/media/nicholas.4c1bb089.png",
+    "static/media/nikita.01d4c2f9.png": "/memory_card/static/media/nikita.01d4c2f9.png",
+    "static/media/pierre.e1700c12.png": "/memory_card/static/media/pierre.e1700c12.png",
+    "static/media/sebastian.7efc02b9.png": "/memory_card/static/media/sebastian.7efc02b9.png",
+    "static/media/sergio.678a5608.png": "/memory_card/static/media/sergio.678a5608.png",
+    "static/media/valtteri.121bd788.png": "/memory_card/static/media/valtteri.121bd788.png",
+    "static/media/yuki.bc25e46a.png": "/memory_card/static/media/yuki.bc25e46a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.071a2a74.js",
+    "static/js/2.9dd614ec.chunk.js",
+    "static/css/main.2e00380d.chunk.css",
+    "static/js/main.251dd1df.chunk.js"
+  ]
+}
